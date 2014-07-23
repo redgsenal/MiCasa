@@ -14,6 +14,12 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/styles.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body>
+    	<div class="main">
+    	<%@ include file="head.jsp" %>
+    		<div class="page-wrapper">
+    			<div class="page-content">
+    	

@@ -1,4 +1,5 @@
-				</div><!-- page content -->
+					</div><!-- main -->
+				</div><!-- container -->
 			</div><!-- page wrapper -->
 		<%@ include file="foot.jsp" %>
 		</div><!-- main -->

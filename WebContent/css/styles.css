@@ -1,89 +1,74 @@
 body {
-	background-color: #efefef;
-}
+  background-color: #efefef; }
 
 .main {
-	background-color: #afafaf;
-	min-width: 480px;
-}
+  background-color: #afafaf;
+  min-width: 480px;
+  margin-top: 51px; }
 
 .head {
-	width: 100%;
-	position: relative;
-	top: 0;
-	height: 60px;
-	background-color: #000000;
-	color: #ffffff;
-	left: 0;
-}
+  width: 100%;
+  position: relative;
+  top: 0;
+  height: 60px;
+  background-color: #000000;
+  color: #ffffff;
+  left: 0; }
+  .head ul {
+    list-style: none;
+    float: left; }
+  .head li {
+    float: left;
+    position: relative;
+    padding: 0 20px; }
+  .head a {
+    color: #ffffff;
+    text-decoration: none; }
 
-.head ul{
-	list-style: none;
-	float: left;
-}
+.head-menu {
+  width: 1024px;
+  margin: 0 auto;
+  display: block;
+  background-color: #557FFF;
+  height: 100%; }
 
-.head li{
-	float: left;
-	position: relative;
-	padding: 0 20px;
-}
+.foot {
+  width: 100%;
+  min-width: 480px;
+  position: relative;
+  height: 200px;
+  background-color: #000000;
+  color: #ffffff; }
+  .foot ul {
+    list-style: none; }
+  .foot a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 0.8em; }
+  .foot h2 {
+    font-size: 0.9em; }
 
-.head a {
-	color: #ffffff;
-	text-decoration: none;
-}
-.head-menu{
-	width: 1024px;
-	margin: 0 auto;
-	display: block;
-	background-color: #557FFF;
-	height: 100%;
-}
+.foot-container {
+  width: 920px;
+  margin: 0 auto;
+  padding: 30px;
+  min-height: 150px; }
 
-.foot{
-	width: 100%;
-	min-width: 480px;
-	position: relative;
-	height: auto;
-	background-color: #000000;
-	color: #ffffff;
-}
+.foot-list {
+  float: left;
+  padding: 0 0 20px; }
 
-.foot ul{
-	list-style: none;	
-}
+.page-wrapper {
+  background-color: #afafaf;
+  min-height: 800px;
+  position: relative;
+  max-height: 100000000px;
+  min-width: 480px; }
 
-.foot a{
-	text-decoration: none;
-	color: #ffffff;
-	font-size: 0.8em;
-}
-
-.foot h2{
-	font-size: 0.9em;	
-}
-.foot-container{
-	width: 920px;
-	margin: 0 auto;
-	padding: 30px;
-	min-height: 150px;
-}
-.foot-list{
-	float: left;
-	padding: 0 0 20px;
-}
-.page-wrapper{
-	background-color: #afafaf;
-	min-height: 653px;
-	position: relative;
-	max-height: 100000000px;
-	min-width: 480px;
-}
-.page-content{
-	min-width: 480px;
-	margin: 0 auto;
-	width: 1024px;
-	padding: 0 30px;
-	display: block;
-	position: relative;
-}
+.page-content {
+  min-width: 480px;
+  margin: 0 auto;
+  width: 1024px;
+  padding: 0 30px;
+  display: block;
+  position: relative; }
